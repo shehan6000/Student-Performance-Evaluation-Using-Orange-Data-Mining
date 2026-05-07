@@ -47,10 +47,6 @@ Example target variable:
 * `Pass/Fail`
 * `Performance Category`
 
-Possible dataset sources:
-
-* [UCI Machine Learning Repository – Student Performance Dataset](https://archive.ics.uci.edu/ml/datasets/student+performance?utm_source=chatgpt.com)
-* [Kaggle Student Performance Dataset](https://www.kaggle.com/datasets?utm_source=chatgpt.com)
 
 ---
 
@@ -110,63 +106,7 @@ The models were evaluated using:
 
 ---
 
-# Project Structure
 
-```text
-student-performance-orange/
-│
-├── dataset/
-│   └── student_performance.csv
-│
-├── workflow/
-│   └── student_performance_workflow.ows
-│
-├── screenshots/
-│   └── workflow.png
-│
-└── README.md
-```
 
 ---
 
-# How to Run the Project
-
-## 1. Install Orange
-
-Download and install Orange:
-
-[Download Orange Data Mining](https://orangedatamining.com/download/?utm_source=chatgpt.com)
-
----
-
-## 2. Open the Workflow
-
-1. Launch Orange
-2. Open the `.ows` workflow file
-3. Load the dataset
-4. Run the workflow
-
----
-
-## 3. Analyze Results
-
-* Compare model accuracy
-* Visualize data patterns
-* Interpret confusion matrix
-* Identify important student performance factors
-
----
-
-# Sample Analysis
-
-Example findings from the project:
-
-* Students with higher study time tend to achieve better grades
-* Attendance strongly affects final performance
-* Previous academic records are strong predictors
-* Internet access and parental education may influence outcomes
-
----
-
-
-This project is for educational and academic purposes.
